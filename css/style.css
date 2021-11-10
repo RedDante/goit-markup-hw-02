@@ -20,8 +20,12 @@ body {
   text-decoration: none;
 }
 
+/*------------------------------------Main Page/header-----------------------------------------------*/
+/*------------------------------------Головна сторінка/хедер-------------------------------------*/
+/*---Логотип/logo---*/
+
 .header {
-  background-color: rgb(65, 90, 91);
+  color: #ffffff;
 }
 
 .header-web {
@@ -44,8 +48,8 @@ body {
   color: #212121;
 }
 
+/*---Navigation/Навигация---*/
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +58,8 @@ body {
   color: var(--second-title-color);
 }
 
-.header-studio:hover {
+.header-studio:hover,
+.header-studio:focus {
   color: #2196f3;
 }
 
@@ -67,7 +72,8 @@ body {
   color: var(--main-text-color);
 }
 
-.header-mail:hover {
+.header-mail:hover,
+.header-mail:focus {
   color: #2196f3;
 }
 
@@ -216,7 +222,7 @@ body {
 
 /*----------------------------------------------------------------------------Portfolio----------------------------------------------------*/
 .header-portfolio {
-  background-color: rgb(89, 69, 59);
+  color: #ffffff;
 }
 
 .logo-head {
@@ -245,7 +251,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--main-title-color);
+  color: var(--second-title-color);
 }
 
 .head-pr:hover {
